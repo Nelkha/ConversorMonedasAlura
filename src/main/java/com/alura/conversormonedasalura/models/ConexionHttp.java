@@ -25,21 +25,7 @@ public class ConexionHttp {
         this.sigla = sigla;
     }
 
-    public String getDireccion() {
-        return direccion;
-    }
-
-    public void setDireccion(String direccion) {
-        this.direccion = direccion;
-    }
-
-    public String getSigla() {
-        return sigla;
-    }
-
-    public void setSigla(String sigla) {
-        this.sigla = sigla;
-    }
+ 
     
    public String devolverRespuestaJson(){
         try {

@@ -1,1 +1,4 @@
+com\alura\conversormonedasalura\models\Moneda.class
+com\alura\conversormonedasalura\models\ConexionHttp.class
+com\alura\conversormonedasalura\models\MonedaOmdb.class
 com\alura\conversormonedasalura\ConversorMonedasAlura.class

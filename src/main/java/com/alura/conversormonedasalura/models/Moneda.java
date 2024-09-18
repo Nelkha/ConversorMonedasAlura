@@ -21,29 +21,12 @@ public class Moneda {
         this.conversiones = monedaOmdb.conversion_rates();
     }
 
-    public String getSiglaBase() {
-        return siglaBase;
-    }
-
-    public void setSiglaBase(String siglaBase) {
-        this.siglaBase = siglaBase;
-    }
-
-    public String getSiglaDestino() {
-        return siglaDestino;
-    }
-
-    public void setSiglaDestino(String siglaDestino) {
-        this.siglaDestino = siglaDestino;
-    }
 
     public Map<String, Double> getConversiones() {
         return conversiones;
     }
 
-    public void setConversiones(Map<String, Double> conversiones) {
-        this.conversiones = conversiones;
-    }
+ 
     
     
     public double calcularConversion(double cantidadMoneda,double conversionRate){
