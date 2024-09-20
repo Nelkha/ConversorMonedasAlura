@@ -18,10 +18,10 @@ import java.util.Scanner;
 public class ConversorMonedasAlura {
 
     public static void main(String[] args) {
-
+        String apikey="Ingresar aqui su api";
         String siglaBase = "";
         String siglaDestino = "";
-        final String direccion = "https://v6.exchangerate-api.com/v6/6af9b2442a349ac70498eb8a/latest/";
+        final String direccion = "https://v6.exchangerate-api.com/v6/apikey/latest/";
         double cantConversion;
         Scanner scanner = new Scanner(System.in);
         int opcion = 0;
