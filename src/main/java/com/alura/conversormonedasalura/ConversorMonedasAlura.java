@@ -21,7 +21,7 @@ public class ConversorMonedasAlura {
         String apikey="Ingresar aqui su api";
         String siglaBase = "";
         String siglaDestino = "";
-        final String direccion = "https://v6.exchangerate-api.com/v6/apikey/latest/";
+        final String direccion = "https://v6.exchangerate-api.com/v6/"+apikey+"/latest/";
         double cantConversion;
         Scanner scanner = new Scanner(System.in);
         int opcion = 0;
